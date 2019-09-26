@@ -1,12 +1,18 @@
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Главная</a>
+    <a class="nav-link active" routerLink="/home">Главная</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Услуги</a>
+    <a class="nav-link" routerLink="/service">Услуги</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" routerLink="/admin">Войти в панель администратора</a>
   </li>
   <li class="nav-item">
     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">О нас</a>
   </li>
 </ul>
-<h1>Полезная информация или что-то то другое...</h1>
+
+<router-outlet></router-outlet>
+
+
